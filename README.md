@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![bigbird0525](https://circleci.com/gh/bigbird0525/udacity_project-5.svg?style=svg)](https://circleci.com/gh/bigbird0525/udacity_project-5)
 
 ## Project Overview
 
