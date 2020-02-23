@@ -5,7 +5,9 @@
 
 # Step 1:
 # Create dockerpath
-dockerpath=aravn/udacity-project-5
+docker login
+docker tag aravn/udacity-project-5:latest aravn/udacity-project-5:v1.0
+dockerpath=aravn/udacity-project-5:v1.0
 
 # Step 2:  
 # Authenticate & tag
