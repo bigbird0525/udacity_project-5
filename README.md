@@ -8,18 +8,16 @@ This project assumes docker and kubernetes are setup on the host machine.
 
 ## Setup the Environment
 
-* Create a virtualenv and activate it
+* Create a virtualenv and activate it, 
+  * Run `make setup`
+  * Run `source ~/.devops/bin/activate`
 * Run `make install` to install the necessary dependencies
 
-### Running `app.py`
+### Running application
 
 1. Standalone:  `python app.py`
 2. Run in Docker:  `./run_docker.sh`
 3. Run in Kubernetes:  `./run_kubernetes.sh`
 
-### Kubernetes Steps
-
-* Setup and Configure Docker locally
-* Setup and Configure Kubernetes locally
-* Create Flask app in Container
-* Run via kubectl
+### Receive predictions
+* Run `./make_predications.sh`
